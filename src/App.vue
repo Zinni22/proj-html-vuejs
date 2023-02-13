@@ -33,5 +33,5 @@ export default {
 </template>
 
 <style lang="scss">
-  @use "./styles/main.scss";
+  @import "./styles/main.scss";
 </style>
