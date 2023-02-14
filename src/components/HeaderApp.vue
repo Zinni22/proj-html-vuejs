@@ -64,7 +64,7 @@ name: 'HeaderApp',
  
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 header{
     background-color: white;
@@ -101,10 +101,7 @@ header{
 
             //BOTTONE
             button{
-                border: 0px;
-                background-color: $main-yellow;
-                padding: 2px 20px;
-                cursor: pointer;
+                @include button-base;
             }
             button:hover{
                 background-color: $main-gray;

@@ -1,5 +1,5 @@
 <script>
-import Jumbo from './main-sections/Jumbo.vue';
+import Jumbo from './Jumbo.vue';
 
 export default {
 name: 'MainApp',
