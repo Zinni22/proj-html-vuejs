@@ -1,4 +1,6 @@
 <script>
+import Jumbo from './main-sections/Jumbo.vue';
+
 export default {
 name: 'MainApp',
 
@@ -8,7 +10,9 @@ name: 'MainApp',
       }
   },
 
-  components:{},
+  components:{
+    Jumbo,
+  },
   methods:{},
 
 }
@@ -17,11 +21,17 @@ name: 'MainApp',
 <template>
 
     <main>
-        MAIN
+
+        <Jumbo />
+
+        
     </main>
  
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
+main{
+    padding-top:60px;
+}
 
 </style>

@@ -1,5 +1,19 @@
-@import "partials/reset";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// GENRALI
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 ul{
-    list-style: none;
+     list-style: none;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+// button{
+//    text-transform: uppercase;
+// }
