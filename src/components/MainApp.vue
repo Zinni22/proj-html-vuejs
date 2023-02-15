@@ -3,7 +3,8 @@ import Jumbo from './Jumbo.vue';
 import CardUno from './CardUno.vue';
 import Statistics from './Statistics.vue';
 import CardDue from './CardDue.vue';
-import ValuesCard from './ValuesCard.vue'
+import ValuesCard from './ValuesCard.vue';
+import Reviews from './Reviews.vue';
 
 export default {
 name: 'MainApp',
@@ -20,6 +21,7 @@ name: 'MainApp',
     Statistics,
     CardDue,
     ValuesCard,
+    Reviews,
   },
   methods:{},
 
@@ -96,6 +98,8 @@ name: 'MainApp',
         </div>
       </section>
 
+      <!-- SEZIONE REVIEWS -->
+      <Reviews />
 
         
     </main>
