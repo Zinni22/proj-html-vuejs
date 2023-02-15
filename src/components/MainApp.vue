@@ -3,6 +3,7 @@ import Jumbo from './Jumbo.vue';
 import CardUno from './CardUno.vue';
 import Statistics from './Statistics.vue';
 import CardDue from './CardDue.vue';
+import ValuesCard from './ValuesCard.vue'
 
 export default {
 name: 'MainApp',
@@ -18,6 +19,7 @@ name: 'MainApp',
     CardUno,
     Statistics,
     CardDue,
+    ValuesCard,
   },
   methods:{},
 
@@ -53,7 +55,7 @@ name: 'MainApp',
         </div>
       </section>
 
-      <!-- SEZIONE STATISICHE -->
+      <!-- SEZIONE STATISTICHE -->
       <Statistics />
 
       <!-- SEZIONE CARD N.2 -->
@@ -69,6 +71,25 @@ name: 'MainApp',
           <div class="container d-flex justify-content-between card2-small-container">
 
             <CardDue />
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SEZIONE VALUES -->
+      <section>
+        <div class="card-big-container gray">
+
+          <h3>Our Core Values</h3>
+
+          <hr>
+
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ducimus laudantium tenetur molestias unde modi <br>repellat maxime reiciendis quia cum?</p>
+
+          <div class="container d-flex justify-content-between card2-small-container">
+
+            <ValuesCard />
 
           </div>
 
@@ -104,6 +125,11 @@ main{
   .card2-small-container{
     margin-top: 80px;
     width: 70%;
+  }
+
+  // SEZIONE VALUES
+  .gray{
+    background-color: $main-white;
   }
 
 }

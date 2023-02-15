@@ -18,6 +18,8 @@ import { faUsers } from '@fortawesome/free-solid-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faGear } from '@fortawesome/free-solid-svg-icons'
+import { faLightbulb } from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
 library.add(
@@ -29,7 +31,9 @@ library.add(
     faUsers,
     faGlobe,
     faLink,
-    faMagnifyingGlass
+    faMagnifyingGlass,
+    faGear,
+    faLightbulb
     )
 
 createApp(App)
