@@ -2,6 +2,7 @@
 import Jumbo from './Jumbo.vue';
 import CardUno from './CardUno.vue';
 import Statistics from './Statistics.vue';
+import CardDue from './CardDue.vue';
 
 export default {
 name: 'MainApp',
@@ -16,6 +17,7 @@ name: 'MainApp',
     Jumbo,
     CardUno,
     Statistics,
+    CardDue,
   },
   methods:{},
 
@@ -34,7 +36,7 @@ name: 'MainApp',
 
       <!-- SEZIONE CARD N.1 -->
       <section>
-        <div class="card1-big-container">
+        <div class="card-big-container">
 
           <h3>Specialists in Modern Costruction</h3>
 
@@ -54,6 +56,25 @@ name: 'MainApp',
       <!-- SEZIONE STATISICHE -->
       <Statistics />
 
+      <!-- SEZIONE CARD N.2 -->
+      <section>
+        <div class="card-big-container">
+
+          <h3>Explore Recent Work</h3>
+
+          <hr>
+
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ducimus laudantium tenetur molestias unde modi <br>repellat maxime reiciendis quia cum?</p>
+
+          <div class="container d-flex justify-content-between card2-small-container">
+
+            <CardDue />
+
+          </div>
+
+        </div>
+      </section>
+
 
         
     </main>
@@ -62,22 +83,28 @@ name: 'MainApp',
 
 <style lang="scss">
 main{
-    padding-top:60px;
-    background-color: white;
+  padding-top:60px;
+  background-color: white;
 
-    //SEZIONE CARD UNO
-    .card1-big-container{
-      text-align: center;
-      padding: 80px 0;
+  //SEZIONE CARD UNO
+  .card-big-container{
+    text-align: center;
+    padding: 80px 0;
 
-      hr{
-        @include hr-base;
-      }
-
-      .card1-small-container{
-        margin-top: 80px;
-      }
+    hr{
+      @include hr-base;
     }
+
+    .card1-small-container{
+      margin-top: 80px;
+    }
+  }
+
+  // SEZIONE CARD DUE
+  .card2-small-container{
+    margin-top: 80px;
+    width: 70%;
+  }
 
 }
 
