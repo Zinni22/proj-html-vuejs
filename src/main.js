@@ -13,6 +13,9 @@ import { faBuilding } from '@fortawesome/free-solid-svg-icons'
 import { faArrowsSpin } from '@fortawesome/free-solid-svg-icons'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import { faTruck } from '@fortawesome/free-solid-svg-icons'
+import { faSuitcase } from '@fortawesome/free-solid-svg-icons'
+import { faUsers } from '@fortawesome/free-solid-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
 library.add(
@@ -20,6 +23,9 @@ library.add(
     faArrowsSpin,
     faHouse,
     faTruck,
+    faSuitcase,
+    faUsers,
+    faGlobe,
     )
 
 createApp(App)
