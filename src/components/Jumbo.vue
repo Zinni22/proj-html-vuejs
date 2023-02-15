@@ -17,7 +17,7 @@ name: 'Jumbo',
 <template>
 
     <!-- CONTENITORE PRINCIPALE -->
-    <div class="d-flex justify-content-center align-items-center main-container">
+    <div class="d-flex justify-content-center align-items-center jumbo-container">
 
         <!-- CONTENITORE FLEXATO -->
         <div>
@@ -52,10 +52,10 @@ name: 'Jumbo',
 <style lang="scss" scoped>
 
 //CONTENITORE PRICIPALE
-.main-container{
+.jumbo-container{
    background-image: url(../img/home-slider-62528242.jpg);
    background-size: cover;
-   padding: 130px 0;
+   padding: 150px 0;
 
    div{
     text-align: center;
@@ -70,6 +70,7 @@ name: 'Jumbo',
         color: $main-yellow;
     }
 
+    // BOTTONI
     div{
         button{
             @include button-base;

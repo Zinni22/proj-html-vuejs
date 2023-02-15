@@ -14,14 +14,19 @@ a{
     color: black;
 }
 
-button{
-   text-transform: uppercase;
-}
-
 //MIXIN
 @mixin button-base{
     border: 0px;
     background-color: $main-yellow;
-    padding: 2px 20px;
+    padding: 10px 20px;
     cursor: pointer;
+    text-transform: uppercase;
+}
+@mixin hr-base{
+    margin: 30px auto;
+    width: 20%;
+    height: 3px;
+    background-color: $main-yellow;
+    border: none;
+    border-radius: 10px;
 }
